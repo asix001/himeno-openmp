@@ -270,7 +270,6 @@ double second()
   return t ;
 }
 
-// nvc -O3 -mp=gpu -mcmodel=medium -gpu=cc80 -Minfo=mp -DELARGE himenoBMTxps.c -o himenoBMTxps && ./himenoBMTxps
 // nvc -O3 -mp=gpu -mcmodel=medium -gpu=cc80 -DLARGE himenoBMTxps.c -o himenoBMTxps && ./himenoBMTxps
 // nvc -O3 -mp=gpu -mcmodel=medium -gpu=cc80 -DMIDDLE himenoBMTxps.c -o himenoBMTxps && ./himenoBMTxps
 // nvc -O3 -mp=gpu -mcmodel=medium -gpu=cc80 -DSMALL himenoBMTxps.c -o himenoBMTxps && ./himenoBMTxps
